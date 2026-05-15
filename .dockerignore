@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+build/
+dist/
+*.spec
+*.log
+logs/
+raw/
+.git/
+*.exe
+test_*.txt

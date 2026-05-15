@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  bid-sync:
+    build: .
+    container_name: bid-sync
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./logs:/app/logs
+      - ./raw:/app/raw
